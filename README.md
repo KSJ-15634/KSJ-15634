@@ -1,17 +1,24 @@
+<!--
+  ✏️ 작성 가이드
+  - {{ }} 로 표시된 부분을 본인 정보로 바꿔 주세요.
+  - 헤더 배너의 text / desc 값은 공백을 %20 으로 바꿔 입력해야 합니다. (예: Hong Gil Dong → Hong%20Gil%20Dong)
+  - 해당 사항이 없는 섹션은 통째로 지워도 레이아웃이 깨지지 않습니다.
+-->
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=260&section=header&text=Yang%20Kyung%20Dong&fontSize=58&fontColor=ffffff&desc=Research%20to%20Production%20AI%20Engineer&descSize=18&descAlignY=72&animation=fadeIn"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=260&section=header&text={{Your%20Name}}&fontSize=58&fontColor=ffffff&desc={{Your%20Title}}&descSize=18&descAlignY=72&animation=fadeIn"/>
 </p>
 
 <p align="center">
-  <a href="https://app.notion.com/p/AI-555b32aeb4c24c189c211ddb6d7ffc1c?source=copy_link">
+  <a href="{{포트폴리오 링크}}">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=notion&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="mailto:mzui2033@gmail.com">
+  <a href="mailto:{{이메일}}">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://github.com/MZUI3">
+  <a href="https://github.com/{{GitHub ID}}">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
 </p>
@@ -22,26 +29,25 @@
 
 ## 👤 About Me
 
-> **연구로 문제를 정의하고, 산업 데이터로 검증하며, 실제 서비스로 구현하는 AI Engineer**
+> **{{나를 한 문장으로 표현하는 슬로건}}**
 
-AI 연구실에서 **3년간** Vision Transformer 기반 모델 설계·경량화 연구를 수행했으며,  
-**SK Hynix 산학과제**와 **K-CHIPS 정부과제**를 통해 반도체 공정의 대규모 데이터 분석 및 AI 자동화 연구를 경험했습니다.
+{{주요 경력/배경 요약 1~2줄 — 예: 어떤 분야에서 몇 년간 무엇을 해왔는지}}  
+{{대표 경험·성과 요약 1줄}}
 
-현재는 LLM Agent · Backend · Cloud/MLOps 역량을 확장하며,  
-연구 성과를 실제 서비스와 제품으로 연결하는 엔지니어링에 집중하고 있습니다.
+{{현재 집중하고 있는 방향 / 목표 직무 1~2줄}}
 
 <br/>
 
 ---
- 
+
 ## 🔑 Key Focus
 
-| Dom`ai`n | Focus |
+| Domain | Focus |
 |--------|-------|
-| 🤖 **LLM / Agent** | LLM Applications · Agentic AI · RAG Systems · Multi-Agent |
-| 🧠 **Vision AI** | Vision Transformer · Model Compression · TinyML |
-| ⚙️ **Backend** | AI Backend Engineering · FastAPI · REST API |
-| ☁️ **Cloud / MLOps** | Docker · AWS · Production Deployment |
+| {{이모지}} **{{분야 1}}** | {{세부 키워드 · 키워드 · 키워드}} |
+| {{이모지}} **{{분야 2}}** | {{세부 키워드 · 키워드 · 키워드}} |
+| {{이모지}} **{{분야 3}}** | {{세부 키워드 · 키워드 · 키워드}} |
+| {{이모지}} **{{분야 4}}** | {{세부 키워드 · 키워드 · 키워드}} |
 
 <br/>
 
@@ -49,27 +55,27 @@ AI 연구실에서 **3년간** Vision Transformer 기반 모델 설계·경량�
 
 ## 🛠 Tech Stack
 
-#### AI / Deep Learning
+<!--
+  배지 형식: ![이름](https://img.shields.io/badge/{{이름}}-{{HEX색상}}?style=flat-square&logo={{로고명}}&logoColor=white)
+  로고명은 https://simpleicons.org 에서 검색할 수 있습니다.
+  아래는 자주 쓰는 배지 예시이니, 사용하는 것만 남기고 나머지는 지워 주세요.
+-->
+
+#### {{카테고리 1 — 예: AI / Deep Learning}}
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Transformers](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 
-#### LLM & Agent
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
-![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square)
-![OpenAI API](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
-
-#### Backend & Cloud
+#### {{카테고리 2 — 예: Backend & Cloud}}
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 
-#### Languages
+#### {{카테고리 3 — 예: Languages}}
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Verilog](https://img.shields.io/badge/Verilog-4E9A06?style=flat-square)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 <br/>
 
@@ -77,27 +83,24 @@ AI 연구실에서 **3년간** Vision Transformer 기반 모델 설계·경량�
 
 ## 💼 Experience
 
-### 🔬 AI Research Laboratory `2022 – 2025`
-<!-- > Undergraduate Researcher → M.S. Researcher -->
+### {{이모지}} {{소속 / 회사 / 연구실명}} `{{YYYY – YYYY}}`
+<!-- > {{직책 또는 역할}} -->
 
-- Vision Transformer 기반 모델 설계 및 성능 최적화 연구
-- 모델 경량화·압축 기법 실험 및 성능 분석
-- 재현 가능한 학습·실험 파이프라인 구축
-- 논문 작성 및 학회 발표
+- {{주요 업무 1}}
+- {{주요 업무 2}}
+- {{주요 업무 3}}
 
 ---
 
-### 🏭 Industry & Government Projects
+### {{이모지}} {{프로젝트·과제·대외활동 카테고리명}}
 
-**SK Hynix 산학과제** `2022 – 2024`
-- 웨이퍼 테스트 데이터 분석 및 불량 패턴 탐지 연구
-- 대규모 IC Dataset 기반 이상치 탐지 및 품질 이슈 분석
-- 테스트 패턴 최적화를 위한 데이터 기반 분석 수행
+**{{활동명 1}}** `{{YYYY – YYYY}}`
+- {{수행 내용 1}}
+- {{수행 내용 2}}
 
-**K-CHIPS 정부과제** `2023 – 2025`
-- 반도체 테스트 AI 데이터셋 구축 및 품질 관리
-- Paper Test 데이터 수집·정제 및 라벨링
-- 반도체 테스트 UI 분석 및 데이터 플랫폼 구축 지원
+**{{활동명 2}}** `{{YYYY – YYYY}}`
+- {{수행 내용 1}}
+- {{수행 내용 2}}
 
 <br/>
 
@@ -105,57 +108,52 @@ AI 연구실에서 **3년간** Vision Transformer 기반 모델 설계·경량�
 
 ## 🚀 Featured Projects
 
-### [생성형 AI를 활용한 Manipulator 캐리커처 서비스](https://app.notion.com/p/AI-Manipulator-37c7f0db48dc803d8221c436ff755bbd?source=copy_link) `2023`
+### [{{프로젝트명 1}}]({{프로젝트 링크}}) `{{YYYY}}`
 
-> Vision AI 기반 Manipualtor 시스템으로 사용자의 사진을 활용하여 펜으로 종이에 직접 그려주는 시스템
-
-| | |
-|---|---|
-| **Tech Stack** | GAN · Face Alignment · Image Segmentation · Edge Detection · Manipulator Control |
-| **Key Contributions** | Face Detection · StyleGAN 구현 · Edge Detection |
-
-### [Multi-Agent Review Analysis System](https://app.notion.com/p/Multi-Agent-Review-Analysis-System-2025-b6b4d72aa03549f082811effa7d6427b?source=copy_link) `2026`
-
-> LangGraph 기반 Multi-Agent 시스템으로 사용자 리뷰를 자동 분석하고 대응 전략 및 피드백을 생성하는 AI 파이프라인
+> {{프로젝트 한 줄 설명 — 무엇을, 어떤 기술로, 어떤 문제를 해결했는지}}
 
 | | |
 |---|---|
-| **Tech Stack** | LangGraph · FastAPI · OpenAI API |
-| **Key Contributions** | Agent State/Router 설계 · Multi-Agent 워크플로우 구현|
+| **Tech Stack** | {{기술 · 기술 · 기술}} |
+| **Key Contributions** | {{본인 기여 · 기여 · 기여}} |
 
-### [도서 관리 시스템](https://app.notion.com/p/37d7f0db48dc80079c09fef33e9992c0?source=copy_link) `2026`
+### [{{프로젝트명 2}}]({{프로젝트 링크}}) `{{YYYY}}`
 
-> Spring Boot 기반 도서관리시스템을 직접 설계·개발하고, AWS EKS 환경으로 이전하여 CI/CD 자동 배포와 운영 모니터링까지 구축한 풀스택 + 인프라 프로젝트
+> {{프로젝트 한 줄 설명}}
 
 | | |
 |---|---|
-| **Tech Stack** | Spring Boot · React · AWS EKS · Docker |
-| **Key Contributions** | REST API 및 JWT 인증 구현 · EKS 기반 CI/CD 파이프라인 구축 · Auto Scaling·모니터링 체계 구축 |
+| **Tech Stack** | {{기술 · 기술 · 기술}} |
+| **Key Contributions** | {{본인 기여 · 기여 · 기여}} |
 
+### [{{프로젝트명 3}}]({{프로젝트 링크}}) `{{YYYY}}`
 
-➡️ [프로젝트 전체 보기](https://app.notion.com/p/Projects-3727f0db48dc807eae9cea3edd34f881?source=copy_link)
+> {{프로젝트 한 줄 설명}}
+
+| | |
+|---|---|
+| **Tech Stack** | {{기술 · 기술 · 기술}} |
+| **Key Contributions** | {{본인 기여 · 기여 · 기여}} |
+
+➡️ [프로젝트 전체 보기]({{프로젝트 목록 링크}})
 
 <br/>
 
 ---
 
-## 📄 [Publications](https://www.notion.so/Paper-3817f0db48dc807986e7defe64f95607?source=copy_link)
+<!-- 📄 논문이 없다면 이 섹션을 삭제하거나 "📜 Certifications" 등으로 바꿔 사용하세요. -->
+## 📄 [Publications]({{논문 목록 링크}})
 
-**[ExMobileViT: Lightweight Classifier Extension for Mobile Vision Transformer](https://www.notion.so/ExMobileViT-Lightweight-Classifier-Extension-for-Mobile-Vision-Transformer-3997f0db48dc80afad07d3046b15851d?source=copy_link)** `2023`  
-`First Author` &nbsp;·&nbsp; arXiv Preprint &nbsp;·&nbsp; Citations 4+
-MobileViT의 경량성을 유지하면서 이미지 분류 성능을 향상시키는 확장 구조 제안  
-\[[GitHub](https://github.com/BMUZI3/ExMobileVIT)\] &nbsp;\[[Paper](https://arxiv.org/abs/2309.01310)\]
+**[{{논문 제목 1}}]({{논문 상세 링크}})** `{{YYYY}}`  
+`{{First Author / Co-Author}}` &nbsp;·&nbsp; {{학회 / 저널명}}  
+{{연구 내용 한 줄 요약}}  
+\[[GitHub]({{코드 링크}})\] &nbsp;\[[Paper]({{논문 링크}})\]
 
-**[ResidualViT: ResNet-based Vision Transformer for Small Datasets](https://www.notion.so/ResidualViT-ResNet-based-Vision-Transformer-for-Small-Datasets-3997f0db48dc80e6bb52ce1269641a7a?source=copy_link)** `2023`  
-`Co-First Author` &nbsp;·&nbsp; 한국인공지능학회(CKAIA) 포스터 발표  
-Small Dataset 환경에서 ViT 일반화 성능 개선을 위한 Residual 구조 제안
+**[{{논문 제목 2}}]({{논문 상세 링크}})** `{{YYYY}}`  
+`{{First Author / Co-Author}}` &nbsp;·&nbsp; {{학회 / 저널명}}  
+{{연구 내용 한 줄 요약}}
 
-**[Test Pattern Prioritization and Outlier Detection for Large-Scale IC Datasets](https://www.notion.so/Test-Pattern-Prioritization-and-Outlier-Detection-for-Large-Scale-IC-Datasets-3997f0db48dc80b59863e25569402054?source=copy_link)** `2024`  
-`Co-First Author` &nbsp;·&nbsp; 한국반도체테스트학회
-대규모 반도체 테스트 데이터 기반 이상치 탐지 및 테스트 효율 향상 연구  
-\[[GitHub](https://github.com/BMUZI3/Synthetic-Dataset-for-Adaptive-Testing)\]
-
-➡️ [논문 전체 보기](https://app.notion.com/p/Paper-3817f0db48dc807986e7defe64f95607?source=copy_link)
+➡️ [논문 전체 보기]({{논문 목록 링크}})
 
 <br/>
 
@@ -165,8 +163,8 @@ Small Dataset 환경에서 ViT 일반화 성능 개선을 위한 Residual 구조
 
 | | |
 |---|---|
-| 🥇 **다이나믹 공학 페스티벌**  | First Prize |
-| 🌏 **ACM/IEEE TinyML Design Contest @ ICCAD 2023**  | Top 11 Worldwide |
+| {{🥇 / 🥈 / 🏅}} **{{대회명}}** | {{수상 내역}} |
+| {{🌏 / 🏅}} **{{대회명}}** | {{수상 내역}} |
 
 <br/>
 
@@ -175,7 +173,7 @@ Small Dataset 환경에서 ViT 일반화 성능 개선을 위한 Residual 구조
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app?user=MZUI3&theme=dark&hide_border=true&background=0D1117&ring=2C5364&fire=26D0CE&currStreakLabel=26D0CE" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app?user={{GitHub ID}}&theme=dark&hide_border=true&background=0D1117&ring=2C5364&fire=26D0CE&currStreakLabel=26D0CE" />
 </p>
 
 <br/>
